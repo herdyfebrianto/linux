@@ -1,0 +1,10 @@
+GRUB RESCUE > 
+
+(find file system linux and directory /boot)
+1. >" ls " or " ls (partition)/ " example : " ls (hd1,gpt6)/ "
+
+2. >" set prefix=(partition system linux)/boot/grub " example : "  set prefix=(hd1,gpt6)/boot/grub "
+3. >" set root=(hd1,gpt6) "
+4. >" insmod normal "  or  " insmod linux "
+5. >" normal "  or  " linux "
+ 
