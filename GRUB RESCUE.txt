@@ -7,4 +7,6 @@ GRUB RESCUE >
 3. >" set root=(hd1,gpt6) "
 4. >" insmod normal "  or  " insmod linux "
 5. >" normal "  or  " linux "
+6. >" grub-install /dev/sda
+7. >" update-grub
  
