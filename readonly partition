@@ -1,0 +1,6 @@
+Permission Denied / Read-Only File System
+
+chmod a+rw (partisi) || chmod a+rw /media/herdy/DATA
+chmod 777 (partisi) || chmod 777 /media/herdy/DATA 
+sudo mount -o remount,rw '/media/herdy/DATA'
+
